@@ -16,6 +16,10 @@ def Download_Value():
     image_getter(url)
 
 window =Tk()
+window.title("Image Getter")
+window.geometry("250x20")
+icon = PhotoImage(file="assets/icon.png")
+window.iconphoto(True,icon)
 
 entry = Entry(window)
 
@@ -25,5 +29,3 @@ download_button = Button(window,text="Download",command=Download_Value)
 download_button.pack(side=RIGHT)
 
 window.mainloop()
-
-image_getter(Download_Value())
