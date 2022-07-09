@@ -9,6 +9,5 @@ use CTRL + V to paste url
 # To Do
 <ul>
   <li>Enlarge the GUI</li>
-  <li>Use DateTime library for better indexing of images</li>
   <li>Style the GUI</li>
 </ul>
